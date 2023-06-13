@@ -1,0 +1,35 @@
+# POST http://localhost:3000/register/
+# Content-Type: application/json
+
+# {
+#   "username": "Kalyan",
+#   "password": "Kalyan123",
+#   "name": "Adam Richard",
+#   "gender": "male"
+# }
+# ###
+
+# POST http://localhost:3000/login/
+# Content-Type: application/json
+
+# {
+#   "username":"JoeBiden",
+#   "password":"biden@123"
+# }
+
+# ###
+# GET http://localhost:3000/user/tweets/feed/
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.YmlkZW5AMTIz.0LNeNFYeL6U_Y0YA8ge2vDXMEbTWWY-sjF1oRMNxFTA
+
+
+# ###
+# GET http://localhost:3000/user/following/
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.YmlkZW5AMTIz.0LNeNFYeL6U_Y0YA8ge2vDXMEbTWWY-sjF1oRMNxFTA
+
+# ###
+# GET http://localhost:3000/tweets/2/
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.YmlkZW5AMTIz.0LNeNFYeL6U_Y0YA8ge2vDXMEbTWWY-sjF1oRMNxFTA
+
+# ###
+# DELETE http://localhost:3000/tweets/2
+# Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.YmlkZW5AMTIz.0LNeNFYeL6U_Y0YA8ge2vDXMEbTWWY-sjF1oRMNxFTA
